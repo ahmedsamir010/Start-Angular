@@ -1,0 +1,108 @@
+<div class="container my-3 mt-5 pb-3">
+
+  <h2 class="pt-5">PORTFOLIO</h2>
+  <div class="lines pb-5">
+      <div class="line"></div>
+     <div class="lineIcon mx-3 fs-3"><i class="fa-solid fa-star"></i></div>
+     <div class="line"></div>
+  </div>
+
+  <div class="row g-5">
+
+
+    <div class="col-md-4" >
+      <div class="item"(click)="getImg($event)"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="assets/images/cabin.png" class="w-100" alt="LOG CABIN" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <div class="item" (click)="getImg($event)">
+        <img src="assets/images/cake.png" class="w-100" alt="TASTY CAKE" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-md-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="item" (click)="getImg($event)">
+        <img src="assets/images/circus.png" class="w-100" alt="CIRCUS TENT" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="item" (click)="getImg($event)">
+        <img src="assets/images/game.png" class="w-100" alt="CONTROLLER" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="item" (click)="getImg($event)">
+        <img src="assets/images/safe.png" class="w-100" alt="LOCKED SAFE" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <div class="item" (click)="getImg($event)">
+        <img src="assets/images/submarine.png" class="w-100" alt="SUBMARINE" />
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="modal fade text-center" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content py-2 px-4">
+<div class="row">
+<div class="col-lg-8 m-auto">
+      <button type="button" class="btn-close ms-auto  " data-bs-dismiss="modal" aria-label="Close"></button>
+     <h1 class=" pt-5" id="pargraph"></h1>
+
+
+   <div class="lines my-3">
+  <div class="line"></div>
+ <div class="lineIcon mx-3 fs-3"><i class="fa-solid fa-star"></i></div>
+ <div class="line"></div>
+    </div>
+    <img  id="img" class=" w-100" alt="">
+
+<p class=" py-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+
+
+
+
+
+        <button type="button" class="btn btn-success m-auto my-3" data-bs-dismiss="modal">
+          <i class="fas fa-times fa-fw"></i>
+          Close Window
+        </button>
+
+    </div>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</div>

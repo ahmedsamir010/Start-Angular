@@ -1,0 +1,44 @@
+.contact{
+  margin-top: 100px;
+}
+h2{
+  font-size:48px ;
+color: #2c3e50;
+font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+font-weight: 700;
+text-align: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  height: 40px;
+  width:100%;
+  margin-top: 15px;
+}
+textarea{
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #000;
+
+}
+input,
+textarea:focus {
+  outline: none;
+}
+button{
+  margin-left: 13px;
+}
+ textarea {
+   border: none; 
+} 
+.line{
+  height: 4px;
+  width: 140px;
+background-color: #302c50;
+}
+.lines{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
